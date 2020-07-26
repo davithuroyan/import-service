@@ -17,6 +17,13 @@ php yii migrate
 
 ```
 
+How to Config
+---------------
+
+Open ``config/db.php`` and replace DB connection credentials
+
+You can change maximum processes count in ``config/params.php``  
+
 
 How to add Import Task
 ------------
