@@ -12,17 +12,18 @@ Run following commands to install service
 git clone https://github.com/davithuroyan/miniature-maker.git
 
 composer install
+```
 
+Open ``config/db.php`` and replace DB connection credentials
+
+You can change maximum processes count in ``config/params.php`` 
+
+```
 php yii migrate
 
 ```
 
-How to Config
----------------
-
-Open ``config/db.php`` and replace DB connection credentials
-
-You can change maximum processes count in ``config/params.php``  
+ 
 
 
 How to add Import Task
